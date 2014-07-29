@@ -114,6 +114,7 @@ not really placed in the text, it is just shown in the overlay"
 
 (defvar hide-region-overlays nil
   "Variable to store the regions we put an overlay on.")
+(make-variable-buffer-local 'hide-region-overlays)
 
 ;;;###autoload
 (defun hide-region-hide ()
